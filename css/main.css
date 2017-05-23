@@ -64,10 +64,26 @@ nav a{
     text-align: justify;
     align-items: center;
 }
+#cuerpo-mod-registro{
+    justify-content: center;
+}
 
 #cont-app{
     float: left;
     border: solid #fff .5px;
     display: flex
 }
-
+footer{
+    background-color: black;
+}
+footer a{
+    color: #fff;
+}
+@media (min-width: @screen-sm-min){
+    #aside-desktop{
+        display:none;
+    }
+    #aside-movil{
+        display: block;
+    }
+}
