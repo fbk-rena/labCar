@@ -73,11 +73,19 @@ nav a{
     border: solid #fff .5px;
     display: flex
 }
+
 footer{
     background-color: black;
 }
 footer a{
     color: #fff;
+}
+#img-conductor{
+    height: 400px;
+    background-image: url(../img/conduce.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
 @media (min-width: @screen-sm-min){
     #aside-desktop{
