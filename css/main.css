@@ -51,6 +51,23 @@ nav a{
 #text-hr{
     margin: 25px;
 }
-#btn-conduce{
-  margin-bottom: 45px;  
+#telefono{
+    background: #F9A91A;
+    padding: 20px;
 }
+#iphone-cont img{
+    
+    margin: 25px;
+}
+#detalle-app{
+    color: #fff;
+    text-align: justify;
+    align-items: center;
+}
+
+#cont-app{
+    float: left;
+    border: solid #fff .5px;
+    display: flex
+}
+
